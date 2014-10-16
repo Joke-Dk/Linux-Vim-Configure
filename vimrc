@@ -11,3 +11,9 @@ set softtabstop=4			#设置（软）制表符宽度为4
 set cindent					#C语言格式对齐
 set nobackup				#不要备份文件
 set clipboard+=unnamed		#与windows共享剪贴板
+
+# 解决中文乱码
+set encoding=utf-8
+set termencoding=utf-8
+set fileencoding=utf-8
+set fileencodings=ucs-bom,utf-8,chinese,cp936 
